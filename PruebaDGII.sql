@@ -32,11 +32,14 @@ CREATE TABLE Comprobante(
 
 INSERT INTO Contribuyentes(RncCedula, Nombre, Tipo, Estatus)
 VALUES ('98754321012','JUAN PEREZ', 'PERSONA FISICA', 'activo'),
-	   ('123456789','FARMACIA TU SALUD', 'PERSONA JURIDICA', 'inactivo')
+	   ('123456789','FARMACIA TU SALUD', 'PERSONA JURIDICA', 'inactivo'),
+	   ('40212353700', 'JOSE VASQUEZ', 'PERSONA FISICA', 'Activo')
 
 INSERT INTO Comprobante (ContribuyenteId, NCF, Monto, Itbis18)
 VALUES (1, 'E310000000001', 200.00, 36.00),
-	   (1, 'E310000000002', 1000.00, 180.00)
+	   (1, 'E310000000002', 1000.00, 180.00),
+	   (3, 'E310000000003', 1500.00, 270.00),
+	   (3, 'E310000000004', 2000.00, 360.00)
 
 SELECT * FROM Contribuyentes
 SELECT * FROM Comprobante
