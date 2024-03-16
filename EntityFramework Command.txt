@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=DGIIDSARN07;Initial Catalog=PRUEBA_DGII;User Id=sa;Password=sa;Encrypt=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models
