@@ -42,7 +42,7 @@ namespace WebApi.Controllers
 
         [HttpGet]
         [Route("Obtener/{Id:int}")]
-        public IActionResult GetContribuyenteByRncCedula(int Id)
+        public IActionResult GetComprobanteById(int Id)
         {
             try
             {

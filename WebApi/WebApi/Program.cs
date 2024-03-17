@@ -20,7 +20,7 @@ builder.Services.AddDbContext<WebApiDBContext>(options => options.UseSqlServer(c
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Inyección de dependencias
+
 builder.Services.AddScoped<IContribuyente, ContribuyentesRepository>();
 builder.Services.AddScoped<IComprobante, ComprobanteRepositoy>();
 
